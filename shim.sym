@@ -26,6 +26,8 @@
 00:2312 function_00_2312
 00:26c1 function_00_26c1
 
+01:752b function_01_752b
+
 02:4147 function_02_4147
 02:4f6d function_02_4f6d
 02:5560 function_02_5560
@@ -66,6 +68,15 @@
 29:5de4 function_29_5de4
 29:5e90 function_29_5e90
 29:7421 function_29_7421
+
+3a:4000 function_3a_4000
+3a:629c function_3a_629c
+3a:6353 function_3a_6353
+3a:63e4 function_3a_63e4
+3a:6421 function_3a_6421
+3a:6610 function_3a_6610
+3a:677c function_3a_677c
+3a:67a2 function_3a_67a2
 
 3c:4377 function_3c_4377
 
@@ -213,7 +224,10 @@
 01:d630 w_d630
 01:d641 w_tutorial_scene ; db
 01:d642 w_d642
+01:d646 w_d646
 01:d647 w_d647
+01:d655 w_d655
+01:d65a w_d65a
 01:d6b5 w_d6b5
 01:d6c8 w_d6c8
 01:d6c9 w_d6c9
@@ -228,7 +242,9 @@
 01:db88 w_safari_map_x ; db
 01:db89 w_safari_map_y ; db
 01:dbe4 w_dbe4 ; db
+01:dbe5 w_dbe5
 01:dbe6 w_dbe6
+01:dbe7 w_dbe7
 01:dbe8 w_dbe8
 01:dbea w_dbea
 01:dbec w_dbec

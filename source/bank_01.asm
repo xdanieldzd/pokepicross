@@ -93,3 +93,97 @@ function_01_6306::
     dec c
     jp nz, .loop
     ret
+
+SECTION "pokemon_was_caught", ROMX[$74a3], BANK[$01]
+pokemon_was_caught::
+    call function_01_74af
+    jp farcall_ret
+
+SECTION "function_01_74a9", ROMX[$74a9], BANK[$01]
+function_01_74a9::
+    call function_01_74da
+    jp farcall_ret
+
+SECTION "function_01_74af", ROMX[$74af], BANK[$01]
+function_01_74af:
+    push hl
+    push bc
+    srl b
+    rr c
+    srl b
+    rr c
+    srl b
+    rr c
+    ld hl, $d6e6
+    add hl, bc
+    pop bc
+    push hl
+    ld a, c
+    and $07
+    ld c, a
+    ld b, $00
+    ld hl, unknown_01_74d2
+    add hl, bc
+    ld a, [hl]
+    pop hl
+    and [hl]
+    pop hl
+    ret
+
+unknown_01_74d2:
+    db $01,$02,$04,$08,$10,$20,$40,$80
+
+SECTION "function_01_74da", ROMX[$74da], BANK[$01]
+function_01_74da:
+    ld a, b
+    and $c0
+    jr nz, jr_001_74ff
+
+    ld a, c
+    srl b
+    rr c
+    srl b
+    rr c
+    srl b
+    rr c
+    ld hl, $d6e6
+    add hl, bc
+    push hl
+    and $07
+    ld c, a
+    ld b, $00
+    ld hl, unknown_01_74d2
+    add hl, bc
+    ld a, [hl]
+    pop hl
+    or [hl]
+    ld [hl], a
+    ret
+
+jr_001_74ff:
+    ld a, b
+    and $3f
+    ld b, a
+    ld a, c
+    srl b
+    rr c
+    srl b
+    rr c
+    srl b
+    rr c
+    ld hl, $d6e6
+    add hl, bc
+    push hl
+    and $07
+    ld c, a
+    ld b, $00
+    ld hl, unknown_01_7523
+    add hl, bc
+    ld a, [hl]
+    pop hl
+    and [hl]
+    ld [hl], a
+    ret
+
+unknown_01_7523:
+    db $FE,$FD,$FB,$F7,$EF,$DF,$BF,$7F

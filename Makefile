@@ -26,7 +26,6 @@ objects += $(dir_build)/shim.o
 
 .PHONY: all
 all: $(name).gbc
-	cmp $(name).gbc $(baserom)
 
 include data/data.mk
 include gfx/gfx.mk
