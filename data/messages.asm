@@ -328,9 +328,11 @@ message_02_6860::
     done
 
 tutorial_message_00::
-    text "それじゃ　さっそく"
-    line "『ポケモンピクロス』の"
-    line "あそびかたを　おしえてやろう"
+    ;text "それじゃ　さっそく"
+    ;line "『ポケモンピクロス』の"
+    ;line "あそびかたを　おしえてやろう"
+    text "Well then, I'll teach you how to"
+    line "play Pokémon Picross now!"
     done
 
 tutorial_message_01::

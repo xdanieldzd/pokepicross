@@ -54,9 +54,9 @@ textbox_print_char::
     ; Draw character
     farcall textbox_draw_char
 
-    ; Leave two pixels space between each character
+    ; Leave one pixel space between each character
     ld hl, w_textbox_cur_x
-    add 2
+    add 1
     add [hl]
     ld [hl], a
     jr .done

@@ -246,97 +246,113 @@ puzzle_names::
 
 puzzle_name_pokedex:
     dw 99
-    text "ポケモンずかん"
+    ;text "ポケモンずかん"
+    text "Pokédex"
     done
     db 0
 
 puzzle_name_town_map:
     dw 105
-    text "タウンマップ"
+    ;text "タウンマップ"
+    text "Town Map"
     done
     db 0
 
 puzzle_name_slot_machine:
     dw 99
-    text "スロットマシーン"
+    ;text "スロットマシーン"
+    text "Slot Machine"
     done
     db 0
 
 puzzle_name_rare_candy:
     dw 104
-    text "ふしぎなあめ"
+    ;text "ふしぎなあめ"
+    text "Rare Candy"
     done
     db 0
 
 puzzle_name_pc:
     dw 111
-    text "パソコン"
+    ;text "パソコン"
+    text "PC"
     done
     db 0
 
 puzzle_name_repel:
     dw 98
-    text "むしよけスプレー"
+    ;text "むしよけスプレー"
+    text "Repel"
     done
     db 0
 
 puzzle_name_silph_scope:
     dw 101
-    text "シルフスコープ"
+    ;text "シルフスコープ"
+    text "Silph Scope"
     done
     db 0
 
 puzzle_name_poke_doll:
     dw 98
-    text "ピッピにんぎょう"
+    ;text "ピッピにんぎょう"
+    text "Poké Doll"
     done
     db 0
 
 puzzle_name_gold_teeth:
     dw 103
-    text "きんのいれば"
+    ;text "きんのいれば"
+    text "Gold Teeth"
     done
     db 0
 
 puzzle_name_jigglypuffs_microphone:
     dw 100
-    text "プリンのマイク"
+    ;text "プリンのマイク"
+    text "Jigglypuff's Mic"
     done
     db 0
 
 puzzle_name_super_rod:
     dw 99
-    text "すごいつりざお"
+    ;text "すごいつりざお"
+    text "Super Rod"
     done
     db 0
 
 puzzle_name_poke_flute:
     dw 100
-    text "ポケモンのふえ"
+    ;text "ポケモンのふえ"
+    text "Poké Flute"
     done
     db 0
 
 puzzle_name_balloons:
     dw 112
-    text "ふうせん"
+    ;text "ふうせん"
+    text "Balloons"
     done
     db 0
 
 puzzle_name_bicycle:
     dw 110
-    text "じてんしゃ"
+    ;text "じてんしゃ"
+    text "Bicycle"
     done
     db 0
 
 puzzle_name_hat:
     dw 116
-    text "ぼうし"
+    ;text "ぼうし"
+    text "Hat"
     done
     db 0
 
 puzzle_name_diglett:
     dw 111
-    text "ディグダ"
+    ;text "ディグダ"
+    text "Diglett"
     done
     db 0
 
@@ -840,7 +856,8 @@ puzzle_name_lapras:
 
 puzzle_name_bulbasaur:
     dw 107
-    text "フシギダネ"
+    ;text "フシギダネ"
+    text "Bulbasaur"
     done
     db 0
 
