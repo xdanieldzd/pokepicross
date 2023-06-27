@@ -150,3 +150,85 @@
 	const POKEDEX_GEODUDE
 	const POKEDEX_ZAPDOS
 	const POKEDEX_MEW
+
+pushc
+newcharmap dexnames
+
+charmap "ア", 0
+charmap "イ", 1
+charmap "ウ", 2
+charmap "エ", 3
+charmap "オ", 4
+charmap "カ", 5
+charmap "キ", 6
+charmap "ク", 7
+charmap "ケ", 8
+charmap "コ", 9
+charmap "サ", 10
+charmap "シ", 11
+charmap "ス", 12
+charmap "セ", 13
+charmap "ソ", 14
+charmap "タ", 15
+charmap "チ", 16
+charmap "ツ", 17
+charmap "テ", 18
+charmap "ト", 19
+charmap "ナ", 20
+charmap "ニ", 21
+charmap "ヌ", 22
+charmap "ネ", 23
+charmap "ノ", 24
+charmap "ハ", 25
+charmap "ヒ", 26
+charmap "フ", 27
+charmap "ヘ", 28
+charmap "ホ", 29
+charmap "マ", 30
+charmap "ミ", 31
+charmap "ム", 32
+charmap "メ", 33
+charmap "モ", 34
+charmap "ヤ", 35
+charmap "ユ", 36
+charmap "ヨ", 37
+charmap "ラ", 38
+charmap "リ", 39
+charmap "ル", 40
+charmap "レ", 41
+charmap "ロ", 42
+charmap "ワ", 43
+charmap "ヲ", 44
+charmap "ン", 45
+charmap "ァ", 46
+charmap "ィ", 47
+charmap "ゥ", 48
+charmap "ェ", 49
+charmap "ォ", 50
+charmap "ャ", 51
+charmap "ュ", 52
+charmap "ョ", 53
+charmap "ッ", 54
+charmap "ー", 55
+charmap "0", 56
+charmap "1", 57
+charmap "2", 58
+charmap "3", 59
+charmap "4", 60
+charmap "5", 61
+charmap "6", 62
+charmap "7", 63
+charmap "8", 64
+charmap "9", 65
+charmap ":", 66
+charmap "<BALL>", 67
+charmap "?", 68
+
+charmap " ", 95
+
+charmap "♂", 252
+charmap "♀", 253
+charmap "゛", 254
+charmap "゜", 255
+
+popc

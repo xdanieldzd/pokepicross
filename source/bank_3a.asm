@@ -428,7 +428,7 @@ function_3a_6724::
     push hl
 
     ; Name kana
-    ld de, $67ec
+    ld de, data_3a_67e7 + $0005 ;data_3a_67ec
     add hl, de
     ld de, w_d646
     ld bc, $0005
@@ -436,7 +436,7 @@ function_3a_6724::
     pop hl
 
     ; Name dakuten/handakuten
-    ld de, $67e7
+    ld de, data_3a_67e7
     add hl, de
     ld de, w_d65a
     ld bc, $0005
@@ -472,3 +472,204 @@ jr_03a_679e:
     add $38
     ld [hl+], a
     ret
+
+SECTION "function_3a_67a2", ROMX[$67A2], BANK[$3A]
+function_3a_67a2::
+    ld a, [w_dbe4]
+    and $0f
+    ld l, a
+    ld h, $00
+    add hl, hl
+    add hl, hl
+    add hl, hl
+    add hl, hl
+    add hl, hl
+    add hl, hl
+    ld de, $9c24
+    add hl, de
+    ld e, l
+    ld d, h
+    ld hl, w_tutorial_scene
+    ld a, BANK(data_3a_67e7)
+    ld bc, $0008
+    push de
+    push hl
+    push de
+    call vram_copy
+    pop hl
+    ld bc, $0006
+    add hl, bc
+    ld e, l
+    ld d, h
+    pop hl
+    add hl, bc
+    ld bc, $0004
+    ld a, BANK(data_3a_67e7)
+    call vram_copy
+    pop de
+    ld hl, $ffe2
+    add hl, de
+    ld e, l
+    ld d, h
+    ld hl, $d657
+    xor a
+    ld bc, $0008
+    call vram_copy
+    ret
+
+pushc
+setcharmap dexnames
+data_3a_67e7:
+    db "  ゛゛ フシキタネ"
+    db "  ゛  フシキソウ"
+    db "  ゛゛ フシキハナ"
+    db "   ゛ ヒトカケ "
+    db " ゛ ゛ リサート "
+    db " ゛ ゛ リサートン"
+    db "゛ ゛  セニカメ "
+    db "     カメール "
+    db "     カメックス"
+    db "   ゜ キャタヒー"
+    db "     トランセル"
+    db "゛    ハタフリー"
+    db "゛ ゛  ヒートル "
+    db "     コクーン "
+    db " ゜   スヒアー "
+    db "゜ ゜  ホッホ  "
+    db "゜゛   ヒション "
+    db "゜゛   ヒショット"
+    db "     コラッタ "
+    db "     ラッタ  "
+    db "   ゛ オニススメ"
+    db "  ゛  オニトリル"
+    db "  ゛  アーホ  "
+    db "  ゛  アーホック"
+    db "゜    ヒカチュウ"
+    db "     ライチュウ"
+    db "  ゛  サント  "
+    db "  ゛゜ サントハン"
+    db " ゛   ニトラン♀"
+    db " ゛   ニトリーナ"
+    db " ゛   ニトクイン"
+    db " ゛   ニトラン♂"
+    db " ゛   ニトリーノ"
+    db " ゛  ゛ニトキンク"
+    db "゜ ゜  ヒッヒ  "
+    db "゜    ヒクシー "
+    db "     ロコン  "
+    db "     キュウコン"
+    db "゜    フリン  "
+    db "゜    フクリン "
+    db "゛゛   スハット "
+    db "゛ ゛  コルハット"
+    db " ゛   ナソノクサ"
+    db "     クサイハナ"
+    db "     ラフレシア"
+    db "゜    ハラス  "
+    db "゜    ハラセクト"
+    db "  ゜  コンハン "
+    db "     モルフォン"
+    db "゛ ゛゛ ティクタ "
+    db "゛゛   タクトリオ"
+    db "     ニャース "
+    db "゜    ヘルシアン"
+    db " ゛   コタック "
+    db "゛ ゛  コルタック"
+    db "     マンキー "
+    db "   ゛ オコリサル"
+    db "゛ ゛  カーティ "
+    db "   ゛ ウインティ"
+    db "     ニョロモ "
+    db "   ゛ ニョロソ "
+    db "   ゛ ニョロホン"
+    db "     ケーシィ "
+    db "  ゛  ユンケラー"
+    db "  ゛  フーティン"
+    db "     ワンリキー"
+    db "゛    コーリキー"
+    db "     カイリキー"
+    db " ゛ ゛ マタツホミ"
+    db "  ゛  ウツトン "
+    db "  ゛  ウツホット"
+    db "    ゛メノクラケ"
+    db "゛   ゛トククラケ"
+    db "   ゛ イシツフテ"
+    db "゛    コローン "
+    db "゛    コローニャ"
+    db "゜    ホニータ "
+    db "゛   ゜キャロッフ"
+    db " ゛   ヤトン  "
+    db " ゛   ヤトラン "
+    db "     コイル  "
+    db "     レアコイル"
+    db "   ゛ カモネキ "
+    db "゛ ゛  トートー "
+    db "゛ ゛  トートリオ"
+    db "゜    ハウワウ "
+    db "゛ ゛  シュコン "
+    db "゛ ゛  ヘトヘター"
+    db "゛ ゛  ヘトヘトン"
+    db "   ゛ シェルター"
+    db "゜    ハルシェン"
+    db "゛    コース  "
+    db "゛    コースト "
+    db "゛ ゛  ケンカー "
+    db "     イワーク "
+    db "   ゜ スリーフ "
+    db "   ゜ スリーハー"
+    db "  ゛  クラフ  "
+    db "  ゛  キンクラー"
+    db "゛  ゛ ヒリリタマ"
+    db "     マルマイン"
+    db "     タマタマ "
+    db "     ナッシー "
+    db "     カラカラ "
+    db "゛ ゛  カラカラ "
+    db "     サワムラー"
+    db " ゛   エヒワラー"
+    db "゛   ゛ヘロリンカ"
+    db "゛゛   トカース "
+    db "  ゛゛ マタトカス"
+    db "     サイホーン"
+    db "  ゛  サイトン "
+    db "     ラッキー "
+    db "  ゛  モンシャラ"
+    db "゛    カルーラ "
+    db "     タッツー "
+    db "  ゛  シートラ "
+    db "     トサキント"
+    db " ゛   アスマオウ"
+    db "  ゛  ヒトテマン"
+    db "     スターミー"
+    db "゛   ゛ハリヤート"
+    db "     ストライク"
+    db "  ゛  ルーシュラ"
+    db "  ゛  エレフー "
+    db "゛ ゛  フーハー "
+    db "     カイロス "
+    db "     ケンタロス"
+    db "    ゛コイキンク"
+    db "゛  ゛ キャラトス"
+    db " ゜   ラフラス "
+    db "     メタモン "
+    db "  ゛  イーフイ "
+    db "    ゛シャワース"
+    db "  ゛  サンタース"
+    db "゛    フースター"
+    db "゜ ゛  ホリコン "
+    db "     オムナイト"
+    db "     オムスター"
+    db " ゛   カフト  "
+    db " ゛ ゜ カフトフス"
+    db "゜    フテラ  "
+    db " ゛゛  カヒコン "
+    db "   ゛ フリーサー"
+    db "  ゛  サンター "
+    db "     ファイヤー"
+    db "     ミニリュウ"
+    db "     ハクリュー"
+    db "     カイリュー"
+    db "     ミュウツー"
+    db "     ミュウ  "
+    db "          "
+popc
