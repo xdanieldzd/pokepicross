@@ -4,6 +4,49 @@ INCLUDE "const_macros.inc"
 INCLUDE "pokedex_constants.inc"
 INCLUDE "puzzle_constants.inc"
 
+; pokedex stuff
+
+SECTION "function_3a_5e79", ROMX[$5E79], BANK[$3A]
+function_3a_5e79::
+    ld hl, $8fc0
+    ld bc, $0040
+    call function_00_0f40
+    ld hl, $9000
+    ld bc, $0600
+    call function_00_0f40
+    ld a, $59
+    ld hl, $4d00
+    ld de, $8d00
+    ld bc, $02c0
+    call vram_copy
+    jp farcall_ret
+
+SECTION "function_3a_5e9c", ROMX[$5E9C], BANK[$3A]
+function_3a_5e9c::
+    ld hl, $8fc0
+    ld bc, $0040
+    call function_00_0f40
+    ld hl, $9000
+    ld bc, $0600
+    call function_00_0f40
+    ld a, $59
+    ld hl, $4d00
+    ld de, $8d00
+    ld bc, $02c0
+    call vram_copy
+    ld a, [w_c357]
+    and a
+    jp z, farcall_ret
+
+    ld a, $01
+    call set_bank_vram
+    ld hl, $8000
+    ld bc, $1000
+    call function_00_0f40
+    ld a, $00
+    call set_bank_vram
+    jp farcall_ret
+
 SECTION "function_3a_5f67", ROMX[$5F67], BANK[$3A]
 function_3a_5f67::
     ld l, a
@@ -187,6 +230,27 @@ jr_03a_601a:
     ld a, c
     jp farcall_ret
 
+SECTION "pokedex_clear_vram_for_portrait", ROMX[$601E], BANK[$3A]
+
+pokedex_clear_vram_for_portrait::
+    ld hl, $8fc0
+    ld bc, $0040
+    call function_00_0f40
+    ld hl, $9000
+    ld bc, $0600
+    call function_00_0f40
+    ld a, [w_c357]
+    and a
+    jp z, farcall_ret
+
+    ld a, $01
+    call set_bank_vram
+    ld hl, $8000
+    ld bc, $1000
+    call function_00_0f40
+    ld a, $00
+    call set_bank_vram
+    jp farcall_ret
 
 SECTION "function_3a_61df", ROMX[$61DF], BANK[$3A]
 function_3a_61df::
@@ -282,7 +346,7 @@ jr_03a_63b4:
     add hl, hl
     add hl, hl
     add hl, hl
-    ld de, function_3a_4000
+    ld de, $4000
     add hl, de
     ld de, $0010
     add hl, de
