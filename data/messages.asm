@@ -336,36 +336,48 @@ tutorial_message_00::
     done
 
 tutorial_message_01::
-    text "うえにある　すうじ　と"
+    ;text "うえにある　すうじ　と"
+	text "Use the numbers on top,"
     done
 
 tutorial_message_02::
-    line "ひだりにある　すうじ　を"
+    ;line "ひだりにある　すうじ　を"
+	text " and"
+	line "those on the left,"
     done
 
 tutorial_message_03::
-    text "　ヒント"
-    line "にして　フィールドにあるマスを"
-    line "けずっていくんじゃ"
+    ;text "　ヒント"
+    ;line "にして　フィールドにあるマスを"
+    ;line "けずっていくんじゃ"
+	text " as hints"
+    line "to clear the squares on the"
+	line "field."
     done
 
 message_02_693c::
     done
 
 tutorial_message_04::
-    text "ただしくけずることが　できたら"
-    line ""
+    ;text "ただしくけずることが　できたら"
+	text "If you can chisel them away"
+    line "correctly, "
     done
 
 tutorial_message_05::
-    text "ポケモンの　ちょうこくが"
-    line "かんせいするんじゃ！！！"
-    line "(“モンスターボ-ル”)"
+    ;text "ポケモンの　ちょうこくが"
+    ;line "かんせいするんじゃ！！！"
+    ;line "(“モンスターボ-ル”)"
+	text "they'll reveal"
+	line "a Pokémon engraving!"
+	line "(“Poké Ball”)"
     done
 
 tutorial_message_06::
-    text "では　『ポケモンピクロス』の"
-    line "ルールを　せつめいするぞ"
+    ;text "では　『ポケモンピクロス』の"
+    ;line "ルールを　せつめいするぞ"
+	text "Right, let me explain the rules"
+	line "of Pokémon Picross now."
     done
 
 tutorial_message_07::
