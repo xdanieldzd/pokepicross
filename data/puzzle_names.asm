@@ -246,1680 +246,1440 @@ puzzle_names::
 
 puzzle_name_pokedex:
     dw 99
-    ;text "ポケモンずかん"
-    text "Pokédex"
+    text "ポケモンずかん"
     done
     db 0
 
 puzzle_name_town_map:
     dw 105
-    ;text "タウンマップ"
-    text "Town Map"
+    text "タウンマップ"
     done
     db 0
 
 puzzle_name_slot_machine:
     dw 99
-    ;text "スロットマシーン"
-    text "Slot Machine"
+    text "スロットマシーン"
     done
     db 0
 
 puzzle_name_rare_candy:
     dw 104
-    ;text "ふしぎなあめ"
-    text "Rare Candy"
+    text "ふしぎなあめ"
     done
     db 0
 
 puzzle_name_pc:
     dw 111
-    ;text "パソコン"
-    text "PC"
+    text "パソコン"
     done
     db 0
 
 puzzle_name_repel:
     dw 98
-    ;text "むしよけスプレー"
-    text "Repel"
+    text "むしよけスプレー"
     done
     db 0
 
 puzzle_name_silph_scope:
     dw 101
-    ;text "シルフスコープ"
-    text "Silph Scope"
+    text "シルフスコープ"
     done
     db 0
 
 puzzle_name_poke_doll:
     dw 98
-    ;text "ピッピにんぎょう"
-    text "Poké Doll"
+    text "ピッピにんぎょう"
     done
     db 0
 
 puzzle_name_gold_teeth:
     dw 103
-    ;text "きんのいれば"
-    text "Gold Teeth"
+    text "きんのいれば"
     done
     db 0
 
 puzzle_name_jigglypuffs_microphone:
     dw 100
-    ;text "プリンのマイク"
-    text "Jigglypuff's Mic"
+    text "プリンのマイク"
     done
     db 0
 
 puzzle_name_super_rod:
     dw 99
-    ;text "すごいつりざお"
-    text "Super Rod"
+    text "すごいつりざお"
     done
     db 0
 
 puzzle_name_poke_flute:
     dw 100
-    ;text "ポケモンのふえ"
-    text "Poké Flute"
+    text "ポケモンのふえ"
     done
     db 0
 
 puzzle_name_balloons:
     dw 112
-    ;text "ふうせん"
-    text "Balloons"
+    text "ふうせん"
     done
     db 0
 
 puzzle_name_bicycle:
     dw 110
-    ;text "じてんしゃ"
-    text "Bicycle"
+    text "じてんしゃ"
     done
     db 0
 
 puzzle_name_hat:
     dw 116
-    ;text "ぼうし"
-    text "Hat"
+    text "ぼうし"
     done
     db 0
 
 puzzle_name_diglett:
     dw 111
-    ;text "ディグダ"
-    text "Diglett"
+    text "ディグダ"
     done
     db 0
 
 puzzle_name_gastly:
     dw 116
-    ;text "ゴース"
-	text "Gastly"
+    text "ゴース"
     done
     db 0
 
 puzzle_name_omanyte:
     dw 109
-    ;text "オムナイト"
-	text "Omanyte"
+    text "オムナイト"
     done
     db 0
 
 puzzle_name_muk:
     dw 109
-    ;text "ベトベトン"
-	text "Muk"
+    text "ベトベトン"
     done
     db 0
 
 puzzle_name_kabuto:
     dw 116
-    ;text "カブト"
-	text "Kabuto"
+    text "カブト"
     done
     db 0
 
 puzzle_name_rattata:
     dw 113
-    ;text "コラッタ"
-	text "Rattata"
+    text "コラッタ"
     done
     db 0
 
 puzzle_name_jigglypuff:
     dw 116
-    ;text "プリン"
-	text "Jigglypuff"
+    text "プリン"
     done
     db 0
 
 puzzle_name_mankey:
     dw 113
-    ;text "マンキー"
-	text "Mankey"
+    text "マンキー"
     done
     db 0
 
 puzzle_name_slowpoke:
     dw 117
-    ;text "ヤドン"
-	text "Slowpoke"
+    text "ヤドン"
     done
     db 0
 
 puzzle_name_poliwag:
     dw 114
-    ;text "ニョロモ"
-	text "Poliwag"
+    text "ニョロモ"
     done
     db 0
 
 puzzle_name_parasect:
     dw 108
-    ;text "パラセクト"
-	text "Parasect"
+    text "パラセクト"
     done
     db 0
 
 puzzle_name_venonat:
     dw 111
-    ;text "コンパン"
-	text "Venonat"
+    text "コンパン"
     done
     db 0
 
 puzzle_name_poliwhirl:
     dw 113
-    ;text "ニョロゾ"
-	text "Poliwhirl"
+    text "ニョロゾ"
     done
     db 0
 
 puzzle_name_dragonair:
     dw 111
-    ;text "ハクリュー"
-	text "Dragonair"
+    text "ハクリュー"
     done
     db 0
 
 puzzle_name_charizard:
     dw 110
-    ;text "リザードン"
-	text "Charizard"
+    text "リザードン"
     done
     db 0
 
 puzzle_name_chansey:
     dw 114
-    ;text "ラッキー"
-	text "Chansey"
+    text "ラッキー"
     done
     db 0
 
 puzzle_name_porygon:
     dw 111
-    ;text "ポリゴン"
-	text "Porygon"
+    text "ポリゴン"
     done
     db 0
 
 puzzle_name_gengar:
     dw 111
-    ;text "ゲンガー"
-	text "Gengar"
+    text "ゲンガー"
     done
     db 0
 
 puzzle_name_ditto:
     dw 112
-    ;text "メタモン"
-	text "Ditto"
+    text "メタモン"
     done
     db 0
 
 puzzle_name_bellsprout:
     dw 107
-    ;text "マダツボミ"
-	text "Bellsprout"
+    text "マダツボミ"
     done
     db 0
 
 puzzle_name_haunter:
     dw 113
-    ;text "ゴースト"
-	text "Haunter"
+    text "ゴースト"
     done
     db 0
 
 puzzle_name_koffing:
     dw 113
-    ;text "ドガース"
-	text "Koffing"
+    text "ドガース"
     done
     db 0
 
 puzzle_name_pinsir:
     dw 112
-    ;text "カイロス"
-	text "Pinsir"
+    text "カイロス"
     done
     db 0
 
 puzzle_name_horsea:
     dw 114
-    ;text "タッツー"
-	text "Horsea"
+    text "タッツー"
     done
     db 0
 
 puzzle_name_nidoran_f:
     dw 110
-    ;text "ニドラン♀"
-	text "Nidoran♀"
+    text "ニドラン♀"
     done
     db 0
 
 puzzle_name_dratini:
     dw 110
-    ;text "ミニリュウ"
-	text "Dratini"
+    text "ミニリュウ"
     done
     db 0
 
 puzzle_name_weepinbell:
     dw 113
-    ;text "ウツドン"
-	text "Weepinbell"
+    text "ウツドン"
     done
     db 0
 
 puzzle_name_staryu:
     dw 108
-    ;text "ヒトデマン"
-	text "Staryu"
+    text "ヒトデマン"
     done
     db 0
 
 puzzle_name_dugtrio:
     dw 108
-    ;text "ダグトリオ"
-	text "Dugtrio"
+    text "ダグトリオ"
     done
     db 0
 
 puzzle_name_venusaur:
     dw 107
-    ;text "フシギバナ"
-	text "Venusaur"
+    text "フシギバナ"
     done
     db 0
 
 puzzle_name_drowzee:
     dw 113
-    ;text "スリープ"
-	text "Drowzee"
+    text "スリープ"
     done
     db 0
 
 puzzle_name_seadra:
     dw 114
-    ;text "シードラ"
-	text "Seadra"
+    text "シードラ"
     done
     db 0
 
 puzzle_name_nidoran_m:
     dw 108
-    ;text "ニドラン♂"
-	text "Nidoran♂"
+    text "ニドラン♂"
     done
     db 0
 
 puzzle_name_wigglytuff:
     dw 112
-    ;text "プクリン"
-	text "Wigglytuff"
+    text "プクリン"
     done
     db 0
 
 puzzle_name_magmar:
     dw 113
-    ;text "ブーバー"
-	text "Magmar"
+    text "ブーバー"
     done
     db 0
 
 puzzle_name_ivysaur:
     dw 108
-    ;text "フシギソウ"
-	text "Ivysaur"
+    text "フシギソウ"
     done
     db 0
 
 puzzle_name_kakuna:
     dw 113
-    ;text "コクーン"
-	text "Kakuna"
+    text "コクーン"
     done
     db 0
 
 puzzle_name_clefairy:
     dw 117
-    ;text "ピッピ"
-	text "Clefairy"
+    text "ピッピ"
     done
     db 0
 
 puzzle_name_spearow:
     dw 107
-    ;text "オニスズメ"
-	text "Spearow"
+    text "オニスズメ"
     done
     db 0
 
 puzzle_name_starmie:
     dw 111
-    ;text "スターミー"
-	text "Starmie"
+    text "スターミー"
     done
     db 0
 
 puzzle_name_zubat:
     dw 113
-    ;text "ズバット"
-	text "Zubat"
+    text "ズバット"
     done
     db 0
 
 puzzle_name_voltorb:
     dw 108
-    ;text "ビリリダマ"
-	text "Voltorb"
+    text "ビリリダマ"
     done
     db 0
 
 puzzle_name_cloyster:
     dw 108
-    ;text "パルシェン"
-	text "Cloyster"
+    text "パルシェン"
     done
     db 0
 
 puzzle_name_exeggutor:
     dw 114
-    ;text "ナッシー"
-	text "Exeggutor"
+    text "ナッシー"
     done
     db 0
 
 puzzle_name_magikarp:
     dw 107
-    ;text "コイキング"
-	text "Magikarp"
+    text "コイキング"
     done
     db 0
 
 puzzle_name_seel:
     dw 111
-    ;text "パウワウ"
-	text "Seel"
+    text "パウワウ"
     done
     db 0
 
 puzzle_name_shellder:
     dw 109
-    ;text "シェルダー"
-	text "Shellder"
+    text "シェルダー"
     done
     db 0
 
 puzzle_name_meowth:
     dw 114
-    ;text "ニャース"
-	text "Meowth"
+    text "ニャース"
     done
     db 0
 
 puzzle_name_fearow:
     dw 109
-    ;text "オニドリル"
-	text "Fearow"
+    text "オニドリル"
     done
     db 0
 
 puzzle_name_weedle:
     dw 113
-    ;text "ビードル"
-	text "Weedle"
+    text "ビードル"
     done
     db 0
 
 puzzle_name_magnemite:
     dw 116
-    ;text "コイル"
-	text "Magnemite"
+    text "コイル"
     done
     db 0
 
 puzzle_name_scyther:
     dw 109
-    ;text "ストライク"
-	text "Scyther"
+    text "ストライク"
     done
     db 0
 
 puzzle_name_vulpix:
     dw 116
-    ;text "ロコン"
-	text "Vulpix"
+    text "ロコン"
     done
     db 0
 
 puzzle_name_metapod:
     dw 109
-    ;text "トランセル"
-	text "Metapod"
+    text "トランセル"
     done
     db 0
 
 puzzle_name_venomoth:
     dw 109
-    ;text "モルフォン"
-	text "Venomoth"
+    text "モルフォン"
     done
     db 0
 
 puzzle_name_electabuzz:
     dw 113
-    ;text "エレブー"
-	text "Electabuzz"
+    text "エレブー"
     done
     db 0
 
 puzzle_name_tangela:
     dw 109
-    ;text "モンジャラ"
-	text "Tangela"
+    text "モンジャラ"
     done
     db 0
 
 puzzle_name_goldeen:
     dw 110
-    ;text "トサキント"
-	text "Goldeen"
+    text "トサキント"
     done
     db 0
 
 puzzle_name_nidoqueen:
     dw 109
-    ;text "ニドクイン"
-	text "Nidoqueen"
+    text "ニドクイン"
     done
     db 0
 
 puzzle_name_gyarados:
     dw 109
-    ;text "ギャラドス"
-	text "Gyarados"
+    text "ギャラドス"
     done
     db 0
 
 puzzle_name_persian:
     dw 108
-    ;text "ペルシアン"
-	text "Persian"
+    text "ペルシアン"
     done
     db 0
 
 puzzle_name_dodrio:
     dw 111
-    ;text "ドードリオ"
-	text "Dodrio"
+    text "ドードリオ"
     done
     db 0
 
 puzzle_name_jolteon:
     dw 108
-    ;text "サンダース"
-	text "Jolteon"
+    text "サンダース"
     done
     db 0
 
 puzzle_name_golduck:
     dw 107
-    ;text "ゴルダック"
-	text "Golduck"
+    text "ゴルダック"
     done
     db 0
 
 puzzle_name_mr_mime:
     dw 110
-    ;text "バリヤード"
-	text "Mr. Mime"
+    text "バリヤード"
     done
     db 0
 
 puzzle_name_butterfree:
     dw 109
-    ;text "バタフリー"
-	text "Butterfree"
+    text "バタフリー"
     done
     db 0
 
 puzzle_name_graveler:
     dw 112
-    ;text "ゴローン"
-	text "Graveler"
+    text "ゴローン"
     done
     db 0
 
 puzzle_name_raticate:
     dw 117
-    ;text "ラッタ"
-	text "Raticate"
+    text "ラッタ"
     done
     db 0
 
 puzzle_name_alakazam:
     dw 110
-    ;text "フーディン"
-	text "Alakazam"
+    text "フーディン"
     done
     db 0
 
 puzzle_name_kangaskhan:
     dw 112
-    ;text "ガルーラ"
-	text "Kangaskhan"
+    text "ガルーラ"
     done
     db 0
 
 puzzle_name_gloom:
     dw 108
-    ;text "クサイハナ"
-	text "Gloom"
+    text "クサイハナ"
     done
     db 0
 
 puzzle_name_ponyta:
     dw 113
-    ;text "ポニータ"
-	text "Ponyta"
+    text "ポニータ"
     done
     db 0
 
 puzzle_name_nidorino:
     dw 111
-    ;text "ニドリーノ"
-	text "Nidorino"
+    text "ニドリーノ"
     done
     db 0
 
 puzzle_name_nidoking:
     dw 108
-    ;text "ニドキング"
-	text "Nidoking"
+    text "ニドキング"
     done
     db 0
 
 puzzle_name_blastoise:
     dw 109
-    ;text "カメックス"
-	text "Blastoise"
+    text "カメックス"
     done
     db 0
 
 puzzle_name_primeape:
     dw 108
-    ;text "オコリザル"
-	text "Primeape"
+    text "オコリザル"
     done
     db 0
 
 puzzle_name_machoke:
     dw 110
-    ;text "ゴーリキー"
-	text "Machoke"
+    text "ゴーリキー"
     done
     db 0
 
 puzzle_name_rapidash:
     dw 109
-    ;text "ギャロップ"
-	text "Rapidash"
+    text "ギャロップ"
     done
     db 0
 
 puzzle_name_grimer:
     dw 109
-    ;text "ベトベター"
-	text "Grimer"
+    text "ベトベター"
     done
     db 0
 
 puzzle_name_onix:
     dw 113
-    ;text "イワーク"
-	text "Onix"
+    text "イワーク"
     done
     db 0
 
 puzzle_name_machamp:
     dw 110
-    ;text "カイリキー"
-	text "Machamp"
+    text "カイリキー"
     done
     db 0
 
 puzzle_name_vileplume:
     dw 109
-    ;text "ラフレシア"
-	text "Vileplume"
+    text "ラフレシア"
     done
     db 0
 
 puzzle_name_paras:
     dw 115
-    ;text "パラス"
-	text "Paras"
+    text "パラス"
     done
     db 0
 
 puzzle_name_lapras:
     dw 112
-    ;text "ラプラス"
-	text "Lapras"
+    text "ラプラス"
     done
     db 0
 
 puzzle_name_bulbasaur:
     dw 107
-    ;text "フシギダネ"
-    text "Bulbasaur"
+    text "フシギダネ"
     done
     db 0
 
 puzzle_name_machop:
     dw 110
-    ;text "ワンリキー"
-	text "Machop"
+    text "ワンリキー"
     done
     db 0
 
 puzzle_name_magneton:
     dw 109
-    ;text "レアコイル"
-	text "Magneton"
+    text "レアコイル"
     done
     db 0
 
 puzzle_name_seaking:
     dw 107
-    ;text "アズマオウ"
-	text "Seaking"
+    text "アズマオウ"
     done
     db 0
 
 puzzle_name_squirtle:
     dw 110
-    ;text "ゼニガメ"
-	text "Squirtle"
+    text "ゼニガメ"
     done
     db 0
 
 puzzle_name_dragonite:
     dw 111
-    ;text "カイリュー"
-	text "Dragonite"
+    text "カイリュー"
     done
     db 0
 
 puzzle_name_omastar:
     dw 109
-    ;text "オムスター"
-	text "Omastar"
+    text "オムスター"
     done
     db 0
 
 puzzle_name_growlithe:
     dw 113
-    ;text "ガーディ"
-	text "Growlithe"
+    text "ガーディ"
     done
     db 0
 
 puzzle_name_vaporeon:
     dw 109
-    ;text "シャワーズ"
-	text "Vaporeon"
+    text "シャワーズ"
     done
     db 0
 
 puzzle_name_farfetchd:
     dw 112
-    ;text "カモネギ"
-	text "Farfetch'd"
+    text "カモネギ"
     done
     db 0
 
 puzzle_name_beedrill:
     dw 113
-    ;text "スピアー"
-	text "Beedrill"
+    text "スピアー"
     done
     db 0
 
 puzzle_name_golem:
     dw 109
-    ;text "ゴローニャ"
-	text "Golem"
+    text "ゴローニャ"
     done
     db 0
 
 puzzle_name_flareon:
     dw 109
-    ;text "ブースター"
-	text "Flareon"
+    text "ブースター"
     done
     db 0
 
 puzzle_name_charmander:
     dw 112
-    ;text "ヒトカゲ"
-	text "Charmander"
+    text "ヒトカゲ"
     done
     db 0
 
 puzzle_name_krabby:
     dw 115
-    ;text "クラブ"
-	text "Krabby"
+    text "クラブ"
     done
     db 0
 
 puzzle_name_cubone:
     dw 112
-    ;text "カラカラ"
-	text "Cubone"
+    text "カラカラ"
     done
     db 0
 
 puzzle_name_arbok:
     dw 110
-    ;text "アーボック"
-	text "Arbok"
+    text "アーボック"
     done
     db 0
 
 puzzle_name_rhyhorn:
     dw 109
-    ;text "サイホーン"
-	text "Rhyhorn"
+    text "サイホーン"
     done
     db 0
 
 puzzle_name_ninetales:
     dw 109
-    ;text "キュウコン"
-	text "Ninetales"
+    text "キュウコン"
     done
     db 0
 
 puzzle_name_abra:
     dw 115
-    ;text "ケーシィ"
-	text "Abra"
+    text "ケーシィ"
     done
     db 0
 
 puzzle_name_mewtwo:
     dw 111
-    ;text "ミュウツー"
-	text "Mewtwo"
+    text "ミュウツー"
     done
     db 0
 
 puzzle_name_rhydon:
     dw 113
-    ;text "サイドン"
-	text "Rhydon"
+    text "サイドン"
     done
     db 0
 
 puzzle_name_raichu:
     dw 109
-    ;text "ライチュウ"
-	text "Raichu"
+    text "ライチュウ"
     done
     db 0
 
 puzzle_name_tauros:
     dw 108
-    ;text "ケンタロス"
-	text "Tauros"
+    text "ケンタロス"
     done
     db 0
 
 puzzle_name_hitmonlee:
     dw 109
-    ;text "サワムラー"
-	text "Hitmonlee"
+    text "サワムラー"
     done
     db 0
 
 puzzle_name_clefable:
     dw 113
-    ;text "ピクシー"
-	text "Clefable"
+    text "ピクシー"
     done
     db 0
 
 puzzle_name_lickitung:
     dw 107
-    ;text "ベロリンガ"
-	text "Lickitung"
+    text "ベロリンガ"
     done
     db 0
 
 puzzle_name_eevee:
     dw 112
-    ;text "イーブイ"
-	text "Eevee"
+    text "イーブイ"
     done
     db 0
 
 puzzle_name_pikachu:
     dw 109
-    ;text "ピカチュウ"
-	text "Pikachu"
+    text "ピカチュウ"
     done
     db 0
 
 puzzle_name_caterpie:
     dw 110
-    ;text "キャタピー"
-	text "Caterpie"
+    text "キャタピー"
     done
     db 0
 
 puzzle_name_nidorina:
     dw 110
-    ;text "ニドリーナ"
-	text "Nidorina"
+    text "ニドリーナ"
     done
     db 0
 
 puzzle_name_marowak:
     dw 110
-    ;text "ガラガラ"
-	text "Marowak"
+    text "ガラガラ"
     done
     db 0
 
 puzzle_name_arcanine:
     dw 109
-    ;text "ウインディ"
-	text "Arcanine"
+    text "ウインディ"
     done
     db 0
 
 puzzle_name_kadabra:
     dw 108
-    ;text "ユンゲラー"
-	text "Kadabra"
+    text "ユンゲラー"
     done
     db 0
 
 puzzle_name_victreebel:
     dw 110
-    ;text "ウツボット"
-	text "Victreebel"
+    text "ウツボット"
     done
     db 0
 
 puzzle_name_moltres:
     dw 110
-    ;text "ファイヤー"
-	text "Moltres"
+    text "ファイヤー"
     done
     db 0
 
 puzzle_name_doduo:
     dw 115
-    ;text "ドードー"
-	text "Doduo"
+    text "ドードー"
     done
     db 0
 
 puzzle_name_jynx:
     dw 110
-    ;text "ルージュラ"
-	text "Jynx"
+    text "ルージュラ"
     done
     db 0
 
 puzzle_name_golbat:
     dw 109
-    ;text "ゴルバット"
-	text "Golbat"
+    text "ゴルバット"
     done
     db 0
 
 puzzle_name_sandslash:
     dw 108
-    ;text "サンドパン"
-	text "Sandslash"
+    text "サンドパン"
     done
     db 0
 
 puzzle_name_tentacruel:
     dw 108
-    ;text "ドククラゲ"
-	text "Tentacruel"
+    text "ドククラゲ"
     done
     db 0
 
 puzzle_name_pidgeot:
     dw 111
-    ;text "ピジョット"
-	text "Pidgeot"
+    text "ピジョット"
     done
     db 0
 
 puzzle_name_dewgong:
     dw 112
-    ;text "ジュゴン"
-	text "Dewgong"
+    text "ジュゴン"
     done
     db 0
 
 puzzle_name_kingler:
     dw 108
-    ;text "キングラー"
-	text "Kingler"
+    text "キングラー"
     done
     db 0
 
 puzzle_name_snorlax:
     dw 111
-    ;text "カビゴン"
-	text "Snorlax"
+    text "カビゴン"
     done
     db 0
 
 puzzle_name_exeggcute:
     dw 112
-    ;text "タマタマ"
-	text "Exeggcute"
+    text "タマタマ"
     done
     db 0
 
 puzzle_name_weezing:
     dw 108
-    ;text "マタドガス"
-	text "Weezing"
+    text "マタドガス"
     done
     db 0
 
 puzzle_name_electrode:
     dw 108
-    ;text "マルマイン"
-	text "Electrode"
+    text "マルマイン"
     done
     db 0
 
 puzzle_name_aerodactyl:
     dw 116
-    ;text "プテラ"
-	text "Aerodactyl"
+    text "プテラ"
     done
     db 0
 
 puzzle_name_wartortle:
     dw 113
-    ;text "カメール"
-	text "Wartortle"
+    text "カメール"
     done
     db 0
 
 puzzle_name_articuno:
     dw 110
-    ;text "フリーザー"
-	text "Articuno"
+    text "フリーザー"
     done
     db 0
 
 puzzle_name_hitmonchan:
     dw 109
-    ;text "エビワラー"
-	text "Hitmonchan"
+    text "エビワラー"
     done
     db 0
 
 puzzle_name_slowbro:
     dw 113
-    ;text "ヤドラン"
-	text "Slowbro"
+    text "ヤドラン"
     done
     db 0
 
 puzzle_name_pidgeotto:
     dw 113
-    ;text "ピジョン"
-	text "Pidgeotto"
+    text "ピジョン"
     done
     db 0
 
 puzzle_name_hypno:
     dw 110
-    ;text "スリーパー"
-	text "Hypno"
+    text "スリーパー"
     done
     db 0
 
 puzzle_name_kabutops:
     dw 108
-    ;text "カブトプス"
-	text "Kabutops"
+    text "カブトプス"
     done
     db 0
 
 puzzle_name_sandshrew:
     dw 117
-    ;text "サンド"
-	text "Sandshrew"
+    text "サンド"
     done
     db 0
 
 puzzle_name_ekans:
     dw 117
-    ;text "アーボ"
-	text "Ekans"
+    text "アーボ"
     done
     db 0
 
 puzzle_name_poliwrath:
     dw 109
-    ;text "ニョロボン"
-	text "Poliwrath"
+    text "ニョロボン"
     done
     db 0
 
 puzzle_name_charmeleon:
     dw 114
-    ;text "リザード"
-	text "Charmeleon"
+    text "リザード"
     done
     db 0
 
 puzzle_name_psyduck:
     dw 112
-    ;text "コダック"
-	text "Psyduck"
+    text "コダック"
     done
     db 0
 
 puzzle_name_oddish:
     dw 108
-    ;text "ナゾノクサ"
-	text "Oddish"
+    text "ナゾノクサ"
     done
     db 0
 
 puzzle_name_tentacool:
     dw 108
-    ;text "メノクラゲ"
-	text "Tentacool"
+    text "メノクラゲ"
     done
     db 0
 
 puzzle_name_pidgey:
     dw 116
-    ;text "ポッポ"
-	text "Pidgey"
+    text "ポッポ"
     done
     db 0
 
 puzzle_name_geodude:
     dw 107
-    ;text "イシツブテ"
-	text "Geodude"
+    text "イシツブテ"
     done
     db 0
 
 puzzle_name_zapdos:
     dw 112
-    ;text "サンダー"
-	text "Zapdos"
+    text "サンダー"
     done
     db 0
 
 puzzle_name_mew:
     dw 118
-    ;text "ミュウ"
-	text "Mew"
+    text "ミュウ"
     done
     db 0
 
 puzzle_name_togepi:
     dw 113
-    ;text "トゲピー"
-	text "Togepi"
+    text "トゲピー"
     done
     db 0
 
 puzzle_name_safari_haunter:
     dw 113
-    ;text "ゴースト"
-	text "Haunter"
+    text "ゴースト"
     done
     db 0
 
 puzzle_name_mew_and_mewtwo:
     dw 96
-    ;text "ミュウとミュウツー"
-	text "Mew and Mewtwo"
+    text "ミュウとミュウツー"
     done
     db 0
 
 puzzle_name_staring_contest:
     dw 110
-    ;text "にらめっこ"
-	text "Staring Contest"
+    text "にらめっこ"
     done
     db 0
 
 puzzle_name_lapras_and_pikachu:
     dw 89
-    ;text "ラプラスとピカチュウ"
-	text "Lapras and Pikachu"
+    text "ラプラスとピカチュウ"
     done
     db 0
 
 puzzle_name_surfing_pikachu:
     dw 94
-    ;text "なみのりピカチュウ"
-	text "Surfing Pikachu"
+    text "なみのりピカチュウ"
     done
     db 0
 
 puzzle_name_starmie_and_staryu:
     dw 87
-    ;text "スターミーとヒトデマン"
-	text "Starmie and Staryu"
+    text "スターミーとヒトデマン"
     done
     db 0
 
 puzzle_name_seel_show:
     dw 102
-    ;text "パウワウショー"
-	text "Seel Show"
+    text "パウワウショー"
     done
     db 0
 
 puzzle_name_balancing_pikachu:
     dw 94
-    ;text "たまのりピカチュウ"
-	text "Balancing Pikachu"
+    text "たまのりピカチュウ"
     done
     db 0
 
 puzzle_name_blocks_and_porygon:
     dw 95
-    ;text "つみきとポリゴン"
-	text "Blocks and Porygon"
+    text "つみきとポリゴン"
     done
     db 0
 
 puzzle_name_carp_streamer:
     dw 108
-    ;text "こいのぼり"
-	text "Carp Streamer"
+    text "こいのぼり"
     done
     db 0
 
 puzzle_name_crab_and_riceball:
     dw 95
-    ;text "クラブとおにぎり"
-	text "Krabby and Riceball"
+    text "クラブとおにぎり"
     done
     db 0
 
 puzzle_name_safari_magnemite:
     dw 116
-    ;text "コイル"
-	text "Magnemite"
+    text "コイル"
     done
     db 0
 
 puzzle_name_transforming_ditto:
     dw 96
-    ;text "へんしんメタモン"
-	text "Transforming Ditto"
+    text "へんしんメタモン"
     done
     db 0
 
 puzzle_name_firefighter_squirtle:
     dw 86
-    ;text "ひけしのゼニガメだん"
-	text "Firefighter Squirtle"
+    text "ひけしのゼニガメだん"
     done
     db 0
 
 puzzle_name_pidgeot_parent:
     dw 99
-    ;text "ピジョットおやこ"
-	text "Pidgeot Parent"
+    text "ピジョットおやこ"
     done
     db 0
 
 puzzle_name_juggling_mr_mime:
     dw 94
-    ;text "おてだまバリヤード"
-	text "Juggling Mr. Mime"
+    text "おてだまバリヤード"
     done
     db 0
 
 puzzle_name_charmander_and_squirtle:
     dw 90
-    ;text "ヒトカゲとゼニガメ"
-	text "Charmander and Squirtle"
+    text "ヒトカゲとゼニガメ"
     done
     db 0
 
 puzzle_name_heracross_and_metapod:
     dw 89
-    ;text "カイロスとトランセル"
-	text "Heracross and Metapod"
+    text "カイロスとトランセル"
     done
     db 0
 
 puzzle_name_napping:
     dw 113
-    ;text "おひるね"
-	text "Napping"
+    text "おひるね"
     done
     db 0
 
 puzzle_name_regular_psyduck:
     dw 96
-    ;text "いつものコダック"
-	text "Regular Psyduck"
+    text "いつものコダック"
     done
     db 0
 
 puzzle_name_happy_moment:
     dw 93
-    ;text "しあわせのひととき"
-	text "Happy Moment"
+    text "しあわせのひととき"
     done
     db 0
 
 puzzle_name_eating_together:
     dw 95
-    ;text "いっしょにたべよう"
-	text "Eating Together"
+    text "いっしょにたべよう"
     done
     db 0
 
 puzzle_name_clefairy_and_clefable:
     dw 98
-    ;text "ピッピとピクシー"
-	text "Clefairy and Clefable"
+    text "ピッピとピクシー"
     done
     db 0
 
 puzzle_name_drawing_pikachu:
     dw 93
-    ;text "おえかきピカチュウ"
-	text "Drawing Pikachu"
+    text "おえかきピカチュウ"
     done
     db 0
 
 puzzle_name_rainfall:
     dw 113
-    ;text "あめふり"
-	text "Rainfall"
+    text "あめふり"
     done
     db 0
 
 puzzle_name_arm_wrestling:
     dw 107
-    ;text "うでずもう"
-	text "Arm Wrestling"
+    text "うでずもう"
     done
     db 0
 
 puzzle_name_horsea_and_shellder:
     dw 91
-    ;text "タッツーとシェルダー"
-	text "Horsea and Shellder"
+    text "タッツーとシェルダー"
     done
     db 0
 
 puzzle_name_double_slap:
     dw 101
-    ;text "おうふくビンタ"
-	text "Double Slap"
+    text "おうふくビンタ"
     done
     db 0
 
 puzzle_name_singing_jigglypuff:
     dw 101
-    ;text "うたってプリン"
-	text "Singing Jigglypuff"
+    text "うたってプリン"
     done
     db 0
 
 puzzle_name_memorial_photo:
     dw 102
-    ;text "きねんしゃしん"
-	text "Memorial Photo"
+    text "きねんしゃしん"
     done
     db 0
 
 puzzle_name_match:
     dw 113
-    ;text "しょうぶ"
-	text "Match"
+    text "しょうぶ"
     done
     db 0
 
 puzzle_name_sea_bathing:
     dw 106
-    ;text "かいすいよく"
-	text "Sea Bathing"
+    text "かいすいよく"
     done
     db 0
 
 puzzle_name_safari_butterfree:
     dw 109
-    ;text "バタフリー"
-	text "Butterfree"
+    text "バタフリー"
     done
     db 0
 
 puzzle_name_thunder_shock:
     dw 102
-    ;text "でんきショック"
-	text "Thunder Shock"
+    text "でんきショック"
     done
     db 0
 
 puzzle_name_eating_contest:
     dw 96
-    ;text "おおぐいたいけつ"
-	text "Eating Contest"
+    text "おおぐいたいけつ"
     done
     db 0
 
 puzzle_name_playing_in_snow:
     dw 107
-    ;text "ゆきあそび"
-	text "Playing in Snow"
+    text "ゆきあそび"
     done
     db 0
 
 puzzle_name_fossil_pokemon:
     dw 100
-    ;text "かせきポケモン"
-	text "Fossil Pokémon"
+    text "かせきポケモン"
     done
     db 0
 
 puzzle_name_whack_a_mole:
     dw 105
-    ;text "もぐらたたき"
-	text "Whack-a-Mole"
+    text "もぐらたたき"
     done
     db 0
 
 puzzle_name_legendary_pokemon:
     dw 95
-    ;text "でんせつポケモン"
-	text "Legendary Pokémon"
+    text "でんせつポケモン"
     done
     db 0
 
 puzzle_name_exeggcute_and_togepi:
     dw 93
-    ;text "タマタマとトゲピー"
-	text "Exeggcute and Togepi"
+    text "タマタマとトゲピー"
     done
     db 0
 
 puzzle_name_cubone_and_butterfree:
     dw 89
-    ;text "カラカラとバタフリー"
-	text "Cubone and Butterfree"
+    text "カラカラとバタフリー"
     done
     db 0
 
 puzzle_name_race:
     dw 110
-    ;text "きょうそう"
-	text "Race"
+    text "きょうそう"
     done
     db 0
 
 puzzle_name_slowbro_and_psyduck:
     dw 93
-    ;text "ヤドランとコダック"
-	text "Slowbro and Psyduck"
+    text "ヤドランとコダック"
     done
     db 0
 
 puzzle_name_slowpoke_and_slowbro:
     dw 97
-    ;text "ヤドンとヤドラン"
-	text "Slowpoke and Slowbro"
+    text "ヤドンとヤドラン"
     done
     db 0
 
 puzzle_name_monkey_and_crab:
     dw 97
-    ;text "さるかにがっせん"
-	text "Monkey and Crab"
+    text "さるかにがっせん"
     done
     db 0
 
 puzzle_name_three_pokemon:
     dw 100
-    ;text "３だいポケモン"
-	text "Three Pokémon"
+    text "３だいポケモン"
     done
     db 0
 
 puzzle_name_safari_gloom:
     dw 98
-    ;text "くさいクサイハナ"
-	text "Stinky Gloom"
+    text "くさいクサイハナ"
     done
     db 0
 
 puzzle_name_team_rocket:
     dw 106
-    ;text "ロケットだん"
-	text "Team Rocket"
+    text "ロケットだん"
     done
     db 0
 
 puzzle_name_pikachu_and_togepi:
     dw 90
-    ;text "ピカチュウとトゲピー"
-	text "Pikachu and Togepi"
+    text "ピカチュウとトゲピー"
     done
     db 0
 
 puzzle_name_hidden_village:
     dw 88
-    ;text "かくれざとのポケモン"
-	text "Hidden Village Pokémon"
+    text "かくれざとのポケモン"
     done
     db 0
 
 puzzle_name_snowman:
     dw 109
-    ;text "ゆきだるま"
-	text "Snowman"
+    text "ゆきだるま"
     done
     db 0
 
 puzzle_name_pikachu_forest:
     dw 98
-    ;text "ピカチュウのもり"
-	text "Pikachu's Forest"
+    text "ピカチュウのもり"
     done
     db 0
 
 puzzle_name_pokeball:
     dw 98
-    ;text "モンスターボール"
-	text "Pokéball"
+    text "モンスターボール"
     done
     db 0
 
 puzzle_name_safari_pikachu:
     dw 109
-    ;text "ピカチュウ"
-	text "Pikachu"
+    text "ピカチュウ"
     done
     db 0
 
 puzzle_name_old_amber:
     dw 100
-    ;text "ひみつのコハク"
-	text "Old Amber"
+    text "ひみつのコハク"
     done
     db 0
 
 puzzle_name_missingno_de:
     dw 111
-    ;text "けつばん"
-	text "Missingno."
+    text "けつばん"
     done
     db 0
 
 puzzle_name_missingno_df:
     dw 111
-    ;text "けつばん"
-	text "Missingno."
+    text "けつばん"
     done
     db 0
 
 puzzle_name_missingno_e0:
     dw 111
-    ;text "けつばん"
-	text "Missingno."
+    text "けつばん"
     done
     db 0
 
 puzzle_name_missingno_e1:
     dw 111
-    ;text "けつばん"
-	text "Missingno."
+    text "けつばん"
     done
     db 0
 
 puzzle_name_missingno_e2:
     dw 111
-    ;text "けつばん"
-	text "Missingno."
+    text "けつばん"
     done
     db 0
 
 puzzle_name_missingno_e3:
     dw 111
-    ;text "けつばん"
-	text "Missingno."
+    text "けつばん"
     done
     db 0
 
 puzzle_name_missingno_e4:
     dw 111
-    ;text "けつばん"
-	text "Missingno."
+    text "けつばん"
     done
     db 0
 
 puzzle_name_missingno_e5:
     dw 111
-    ;text "けつばん"
-	text "Missingno."
+    text "けつばん"
     done
     db 0
 
 puzzle_name_missingno_e6:
     dw 111
-    ;text "けつばん"
-	text "Missingno."
+    text "けつばん"
     done
     db 0
 
 puzzle_name_missingno_e7:
     dw 111
-    ;text "けつばん"
-	text "Missingno."
+    text "けつばん"
     done
     db 0
 
 puzzle_name_missingno_e8:
     dw 111
-    ;text "けつばん"
-	text "Missingno."
+    text "けつばん"
     done
     db 0
 
 puzzle_name_missingno_e9:
     dw 111
-    ;text "けつばん"
-	text "Missingno."
+    text "けつばん"
     done
     db 0
 
 puzzle_name_missingno_ea:
     dw 111
-    ;text "けつばん"
-	text "Missingno."
+    text "けつばん"
     done
     db 0
 
 puzzle_name_missingno_eb:
     dw 111
-    ;text "けつばん"
-	text "Missingno."
+    text "けつばん"
     done
     db 0
 
 puzzle_name_missingno_ec:
     dw 111
-    ;text "けつばん"
-	text "Missingno."
+    text "けつばん"
     done
     db 0
 
 puzzle_name_missingno_ed:
     dw 111
-    ;text "けつばん"
-	text "Missingno."
+    text "けつばん"
     done
     db 0
 
 puzzle_name_missingno_ee:
     dw 111
-    ;text "けつばん"
-	text "Missingno."
+    text "けつばん"
     done
     db 0
 
 puzzle_name_missingno_ef:
     dw 111
-    ;text "けつばん"
-	text "Missingno."
+    text "けつばん"
     done
     db 0

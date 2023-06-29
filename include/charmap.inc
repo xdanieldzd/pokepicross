@@ -319,8 +319,6 @@ charmap "·", 237
 charmap "(", 238
 charmap ")", 239
 charmap "~", 240
-charmap "é", 243
-charmap "'", 244
 
 DEF TX_LF EQU -2 ; Line feed
 DEF TX_END EQU -1 ; End of message

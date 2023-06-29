@@ -160,70 +160,70 @@ text_chars_widths::
     db 5  ; ゥ
     db 5  ; ェ
     db 5  ; ォ
-    db 5  ; 0
-    db 3  ; 1
-    db 5  ; 2
-    db 5  ; 3
-    db 5  ; 4
-    db 5  ; 5
-    db 5  ; 6
-    db 5  ; 7
-    db 5  ; 8
-    db 5  ; 9
+    db 6  ; 0
+    db 4  ; 1
+    db 6  ; 2
+    db 6  ; 3
+    db 6  ; 4
+    db 6  ; 5
+    db 6  ; 6
+    db 6  ; 7
+    db 6  ; 8
+    db 6  ; 9
     db 5  ; -
-    db 5  ; A
-    db 5  ; B
-    db 5  ; C
-    db 5  ; D
-    db 5  ; E
-    db 5  ; F
-    db 5  ; G
-    db 5  ; H
+    db 7  ; A
+    db 6  ; B
+    db 7  ; C
+    db 6  ; D
+    db 6  ; E
+    db 6  ; F
+    db 7  ; G
+    db 6  ; H
     db 3  ; I
-    db 5  ; J
-    db 5  ; K
-    db 5  ; L
-    db 5  ; M
-    db 5  ; N
-    db 5  ; O
-    db 5  ; P
-    db 5  ; Q
-    db 5  ; R
-    db 5  ; S
-    db 5  ; T
-    db 5  ; U
-    db 5  ; V
-    db 5  ; W
-    db 5  ; X
-    db 5  ; Y
-    db 5  ; Z
-    db 4  ; a
-    db 4  ; b
-    db 4  ; c
-    db 4  ; d
-    db 4  ; e
-    db 5  ; f
-    db 4  ; g
-    db 4  ; h
+    db 7  ; J
+    db 6  ; K
+    db 6  ; L
+    db 7  ; M
+    db 7  ; N
+    db 7  ; O
+    db 6  ; P
+    db 7  ; Q
+    db 6  ; R
+    db 6  ; S
+    db 7  ; T
+    db 7  ; U
+    db 7  ; V
+    db 7  ; W
+    db 7  ; X
+    db 7  ; Y
+    db 6  ; Z
+    db 6  ; a
+    db 5  ; b
+    db 5  ; c
+    db 5  ; d
+    db 5  ; e
+    db 6  ; f
+    db 6  ; g
+    db 5  ; h
     db 1  ; i
-    db 4  ; j
-    db 4  ; k
+    db 5  ; j
+    db 5  ; k
     db 2  ; l
-    db 5  ; m
-    db 4  ; n
-    db 4  ; o
-    db 4  ; p
-    db 4  ; q
-    db 4  ; r
-    db 4  ; s
-    db 4  ; t
-    db 4  ; u
+    db 7  ; m
+    db 5  ; n
+    db 5  ; o
+    db 5  ; p
+    db 5  ; q
+    db 5  ; r
+    db 5  ; s
+    db 5  ; t
+    db 5  ; u
     db 5  ; v
-    db 5  ; w
-    db 5  ; x
-    db 5  ; y
-    db 4  ; z
-    db 1 
+    db 7  ; w
+    db 6  ; x
+    db 6  ; y
+    db 5  ; z
+    db 0 
     db 4  ; 、
     db 4  ; 。
     db 5  ; 『
@@ -231,20 +231,20 @@ text_chars_widths::
     db 8  ; ×
     db 5  ; “
     db 5  ; ”
-    db 1  ; !
+    db 4  ; !
     db 5  ; ?
-    db 1  ; :
+    db 5  ; :
     db 2  ; ;
     db 2  ; ,
-    db 1  ; .
+    db 2  ; .
     db 4  ; ·
     db 3  ; (
     db 3  ; )
     db 7  ; ~
     db 8  ; ♂
     db 5  ; ♀
-    db 4  ; é
-    db 1  ; '
+    db 0
+    db 0
     db 0
     db 0
     db 0

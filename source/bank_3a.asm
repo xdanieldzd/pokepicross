@@ -227,7 +227,7 @@ function_3a_6228:
     ld a, [hl+]
     ld [w_dbe5], a
     ld a, [hl+]
-    ld [w_dbe5], a
+    ld [w_dbe6], a
     ld a, [hl+]
     ld [w_dbe7], a
 
